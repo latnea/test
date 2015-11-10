@@ -19,11 +19,11 @@ class Core {
 	);
 }
 
-$link2 = mysqli_connect(Core::$DB_Local, Core::$DB_Login, Core::$DB_Pass, Core::$DB_Name2);
-mysqli_set_charset($link2, 'utf8');
+//$link2 = mysqli_connect(Core::$DB_Local, Core::$DB_Login, Core::$DB_Pass, Core::$DB_Name2);
+//mysqli_set_charset($link2, 'utf8');
 
-$link = mysqli_connect(Core::$DB_Local, Core::$DB_Login, Core::$DB_Pass, Core::$DB_Name);
-mysqli_set_charset($link, 'utf8');
+//$link = mysqli_connect(Core::$DB_Local, Core::$DB_Login, Core::$DB_Pass, Core::$DB_Name);
+//mysqli_set_charset($link, 'utf8');
 /* define ('CREATED',2015); 
 define('NEWSONPAGE',12);
 define('SKIN','default'); // podstavljaem v glavnie fajl= index.php ( u neas eto urok17.php)
